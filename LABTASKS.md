@@ -60,7 +60,7 @@ It can be used in app.js.
 
 #####Find the testing file, describe where it is located and what it is testing. Run karma (the testing engine) as specified in the Readme and describe results. Do not edit any files at this time.
 
->
+> clientJavascript.spec.js is located in the javascript folder in the public folder. It is running three different tests. The first test verifies that the function "testStringLength" in clientJavascript.js returns 7 when inputting "kittens". The second test verifies that the function returnKittens located in clientJavaScript.js returns "kittens". The last test fails because it expects returnKittens to return something other than "kittens".
 
 #####After having set up Travis CI with your forked project, play around the page for your project (build history, settings, branches, etc) and describe at least 3 features you think would be useful when troubleshooting a broken project.
 

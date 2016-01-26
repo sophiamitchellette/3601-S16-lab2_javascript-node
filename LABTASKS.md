@@ -48,10 +48,13 @@ This is different from accessing the page petForm the first time because you are
 > serverJavascript.js
 It can be used in app.js.
 
-
 #####What is the purpose of package.json file? What's in it, and what does it mean?
 
+> The package.json file stores information about the project.
+
 #####What's in .gitgnore file? What's the purpose of it?
+
+> The .gitignore file holds the names of folders. It tells Git which files to ignore before you make a commit.
 
 ## Part #2: exploring testing
 

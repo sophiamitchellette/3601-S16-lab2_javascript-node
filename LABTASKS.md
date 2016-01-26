@@ -23,11 +23,11 @@ A "route" is an alteration of the user's view of the website. It adds an identif
 
 #####In your project change the message that appears when the user is trying to access the page "kittens". Describe what you did and how it worked.
 
-> We went into app.js and changed the message in the parentheses of res.send. It worked by changing the information sent to the user when the page "kittens" is displayed.
+> We went into app.js and changed the message in the parentheses of res.send under app.get('/kittens', function(req, res). It worked by changing the information sent to the user when the page "kittens" is displayed.
 
 #####Also change the message that a user sees when they are trying to find a page that doesn't exist.
 
->
+> We went into app.js and changed the message in the parentheses of res.send under app.get('*', function(req, res). It worked by changing the information sent to the user when they attempt to access a nonexistent page. It also throws some sick Vanilla Ice lyrics at you.
 
 #####Describe what happens when you submit a form on petForm page. What are the form parameters in petForm? What is the method for the form? Where is the form submission handled in the project? How are parameters extracted? How is the resulting message generated? How is this different from accessing the page petForm the first time (to see the form)?
 

@@ -11,11 +11,15 @@ Study the project you have cloned. Run it according to the instrucitons in the R
 
 #####What is the purpose of app.js? Explain what happens when a user is trying to access a page "kittens", when a user is trying to access the page "petForm", and when the user submits a form on "petForm". Explain what a "route" is.
 
-> Your Answer Here!
+> The purpose of app.js is to send/receive information to/from the user and the server. It manages routing as well as the different pages throughout the site.
+When a user is trying to access a page "kittens" app.js routes the page and brings up the text "Page under construction!"
+When a user is trying to access the page "petForm" app.js routes the page and brings up a box where the user can enter a name of a pet.
+When the user submits a form on "petForm" app.js gets rid of the text box and puts the text of the name entered, followed by "String Length:" and the string length.
+A "route" is an alteration of the user's view of the website. It adds an identifier (ie: "/kittens") to the URL.
 
 #####What is the contents of the "public" folder? What is each of the html files there and how are they referenced in app.js?
 
-> Your Answer Here!
+> The "public" folder contains the assets (like images), the stylesheet (the css file), and the web pages (the html files).
 
 #####In your project change the message that appears when the user is trying to access the page "kittens". Describe what you did and how it worked.
 

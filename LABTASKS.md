@@ -41,7 +41,7 @@ This is different from accessing the page petForm the first time because you are
 
 #####Where is client-side Javascript defined? Name file(s) in which it is used.
 
-> app.js
+> clientJavascript.js
 
 #####Where is server-side Javascript helper file defined? Where can it be used? Add a function to it and experiment with where you can call this function.
 

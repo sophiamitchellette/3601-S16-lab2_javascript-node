@@ -10,6 +10,7 @@ describe('testing basic functions', function(){
     });
 
     ////this test should fail.
+    //edit: we fixed it!
     it('this test should fail!', function(){
         expect(returnKittens()).toBe("kittens");
     });

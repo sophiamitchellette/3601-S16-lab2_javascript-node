@@ -15,6 +15,11 @@ describe('testing basic functions', function(){
         expect(returnKittens()).not.toBe("Not Kittens!");
     });
 
+    //testing for remainder
+    it('the remainder of 10 divided by 5 should be 0', function(){
+       expect(remainder(10,5)).toEqual(0);
+    });
+
 
 
 

@@ -32,7 +32,23 @@ describe('testing basic functions', function(){
 //testing for GPA Calculator
 describe('testing for GPA calculator', function(){
     it('should return a 4.0', function(){
-       expect(calculate(A, A, A, 4, 5, 4)).toEqual(4.0);
+       expect(calculate("A", "A", "A", 4, 5, 4)).toEqual(4.0);
+    });
+
+    it('should return a 3.0', function(){
+        expect(calculate("A", "B", "C", 4, 5, 4)).toEqual(3.0);
+    });
+
+    it('should return a 3.57', function(){
+        expect(calculate("A", "A-", "B", 4, 4, 4)).toEqual(3.57);
+    });
+
+    it('should return a 2.0', function(){
+        expect(calculate("B", "C", "D", 4, 5, 4)).toEqual(2.0);
+    });
+
+    it('should return a 0.0', function(){
+        expect(calculate("F", "F", "F", 5, 5, 3)).toEqual(0.0);
     });
 });
 

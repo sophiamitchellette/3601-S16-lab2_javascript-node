@@ -72,6 +72,8 @@ It can be used in app.js.
 
 #####Fix any problems described in the previous question. Describe how you fixed them. Push your fix to GitHub and post a link to the passing build (from build history) here.
 
+> We fixed the problem described in the
+
 - Study jasmine testing syntax. Think of a Javascript function, describe its behavior by writing tests for it (this is test-driven development, or TDD). Add the function, run the tests. (Actually do this. Don't forget to commit your changes!)
 
 ## Part #3: adding a GPA calculator

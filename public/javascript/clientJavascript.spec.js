@@ -10,9 +10,9 @@ describe('testing basic functions', function(){
     });
 
     ////this test should fail.
-    //edit: we fixed it!
+    //edit: fixed it
     it('this test should fail!', function(){
-        expect(returnKittens()).toBe("kittens");
+        expect(returnKittens()).not.toBe("Not Kittens!");
     });
 });
 

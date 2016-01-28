@@ -27,6 +27,10 @@ describe('testing basic functions', function(){
 
 
 
+});
+
+//testing for GPA Calculator
+describe('testing for GPA calculator', function(){
 
 });
 

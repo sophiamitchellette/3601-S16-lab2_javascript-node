@@ -2,13 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Calculator for your GPA</title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="javascript/clientJavascript.js"></script>
 </head>
 <body>
     <form method="post" action="/calculatorGPA">
         <input name="class1grade" type="text" width="20" placeholder="enter letter grade">
+        <input name="class1credits" type="text" width="20" placeholder="enter class credits">
+        <br>
+        <input name="class2grade" type="text" width="20" placeholder="enter letter grade">
+        <input name="class2credits" type="text" width="20" placeholder="enter class credits">
+        <br>
+        <input name="class3grade" type="text" width="20" placeholder="enter letter grade">
+        <input name="class3credits" type="text" width="20" placeholder="enter class credits">
+        <br>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="rightness">
     </form>
 </body>
 </html>

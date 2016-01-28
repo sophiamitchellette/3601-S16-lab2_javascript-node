@@ -41,6 +41,10 @@ app.get('/about', function(req, res){
     res.sendFile('about.html', options);
 });
 
+app.get('/calculatorGPA', function(req, res){
+    res.sendFile('calculatorGPA.html', options);
+});
+
 app.get('/petForm', function(req, res){
     res.sendFile('petForm.html', options);
     //console.log(req.query["newPet"]);

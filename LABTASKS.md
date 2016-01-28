@@ -64,7 +64,11 @@ It can be used in app.js.
 
 #####After having set up Travis CI with your forked project, play around the page for your project (build history, settings, branches, etc) and describe at least 3 features you think would be useful when troubleshooting a broken project.
 
+> You can see the each commit on github, enabling you to see which commit may have broken your code. It shows which iteration of pushing testing has failed in. And finally it shows pull requests, so you can see who acquired what code at what point, and if they modified the wrong code.
+
 #####What was the build status of your project right after you got everything set up? Use Travis to find any problems, and describe what failed, if anything. (Which files, what lines, why did failure occur, etc.)
+
+> Failing. The file that's failing is clientJavascript.spec.js. The line is expect(returnKittens()).toBe("Not Kittens!");. Failure occurred because returnKittens() returns "kittens" and the test expected it to return "Not Kittens!"
 
 #####Fix any problems described in the previous question. Describe how you fixed them. Push your fix to GitHub and post a link to the passing build (from build history) here.
 

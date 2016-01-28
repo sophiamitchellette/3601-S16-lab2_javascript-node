@@ -20,6 +20,11 @@ describe('testing basic functions', function(){
        expect(remainder(10,5)).toEqual(0);
     });
 
+    //testing for remainder
+    it('the remainder of 11 divided by 5 should be 1', function(){
+        expect(remainder(11,5)).toEqual(1);
+    });
+
 
 
 

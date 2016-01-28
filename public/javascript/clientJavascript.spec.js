@@ -31,6 +31,8 @@ describe('testing basic functions', function(){
 
 //testing for GPA Calculator
 describe('testing for GPA calculator', function(){
-
+    it('should return a 4.0', function(){
+       expect(calculate(A, A, A, 4, 5, 4)).toEqual(4.0);
+    });
 });
 

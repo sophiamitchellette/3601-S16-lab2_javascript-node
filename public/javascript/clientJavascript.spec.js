@@ -57,3 +57,19 @@ describe('testing for GPA calculator', function(){
     });
 });
 
+//testing for gradeToNumber
+describe('testing for GPA calculator', function(){
+
+    it('A return a 4.0', function(){
+        expect(gradeToNumber("A")).toBe(4.0);
+    });
+
+    it('B return a 3.0', function(){
+        expect(gradeToNumber("B")).toBe(3.0);
+    });
+
+    it('D- return a 0.66', function(){
+        expect(gradeToNumber("D-")).toBe(0.66);
+    });
+});
+

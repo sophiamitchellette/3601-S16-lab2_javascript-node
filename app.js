@@ -50,11 +50,14 @@ app.get('/petForm', function(req, res){
     //console.log(req.query["newPet"]);
 });
 
+
+//page for the GPA calculator
 app.post('/calculatorGPA', function(req, res){
     res.send("Your GPA is " + tools.calculateGPA(req.body.class1grade, req.body.class2grade, req.body.class3grade, req.body.class1credits, req.body.class2credits, req.body.class3credits));
     console.log(req.body.class1grade, req.body.class2grade, req.body.class3grade, req.body.class1credits, req.body.class2credits, req.body.class3credits);
 });
 
+//code that determines what occurs once submit button is pressed
 app.post('/petForm', function(req, res){
     res.send(req.body.newPet + " String Length: " + tools.stringLength(req.body.newPet) + " First Letter of Name: " + tools.firstLetter(req.body.newPet));
     console.log(req.body.newPet);

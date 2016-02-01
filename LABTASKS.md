@@ -90,4 +90,3 @@ Study the project you have cloned. Run it according to the instrucitons in the R
 
 - As you are working, don't forget to change drivers in pair-programming, practice TDD, write comments, and make frequent commits. As before, at the end just push all the changes to github.
 
-//Next time comment and stuff

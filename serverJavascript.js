@@ -8,7 +8,8 @@ exports.firstLetter = function(str){
     return str.substring(0,1);
 };
 
-var gradetonumber = function(gr){
+//converts text to numerical decimal
+var gradeToNumber = function(gr){
     if(gr == "A")
     {
         return 4.0;
@@ -60,6 +61,7 @@ var gradetonumber = function(gr){
 
 };
 
+//takes in the three grades and their respective credit hours and returns GPA
 exports.calculateGPA = function(gr1, gr2, gr3, cr1, cr2, cr3){
-    return Math.round(((gradetonumber(gr1)*parseInt(cr1, 10))+(gradetonumber(gr2)*parseInt(cr2, 10))+(gradetonumber(gr3)*parseInt(cr3, 10)))/(parseInt(cr1, 10)+parseInt(cr2, 10)+parseInt(cr3, 10))*100)/100;
+    return Math.round(((gradeToNumber(gr1)*parseInt(cr1, 10))+(gradeToNumber(gr2)*parseInt(cr2, 10))+(gradeToNumber(gr3)*parseInt(cr3, 10)))/(parseInt(cr1, 10)+parseInt(cr2, 10)+parseInt(cr3, 10))*100)/100;
 };

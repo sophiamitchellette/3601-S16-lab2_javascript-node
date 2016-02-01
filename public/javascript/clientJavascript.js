@@ -29,11 +29,13 @@ var returnKittens = function(){
     return "kittens";
 };
 
+//function returns remainder after int1 is divided by int2
 var remainder = function(int1,int2){
     return int1 % int2;
 };
 
-var gradetonumber = function(gr){
+//converts text to numerical decimal
+var gradeToNumber = function(gr){
     if(gr == "A")
     {
         return 4.0;
@@ -51,7 +53,7 @@ var gradetonumber = function(gr){
         return 3.0;
     }
     if(gr == "B-")
-    {
+    {//converts text to numerical decimal
         return 2.66;
     }
     if(gr == "C+")
@@ -85,6 +87,7 @@ var gradetonumber = function(gr){
 
 };
 
+//takes in the three grades and their respective credit hours and returns GPA
 var calculateGPA = function(gr1, gr2, gr3, cr1, cr2, cr3){
-    return Math.round(((gradetonumber(gr1)*cr1)+(gradetonumber(gr2)*cr2)+(gradetonumber(gr3)*cr3))/(cr1+cr2+cr3)*100)/100;
+    return Math.round(((gradeToNumber(gr1)*cr1)+(gradeToNumber(gr2)*cr2)+(gradeToNumber(gr3)*cr3))/(cr1+cr2+cr3)*100)/100;
 };

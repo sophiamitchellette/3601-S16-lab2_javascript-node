@@ -32,7 +32,7 @@ Study the project you have cloned. Run it according to the instrucitons in the R
 #####Describe what happens when you submit a form on petForm page. What are the form parameters in petForm? What is the method for the form? Where is the form submission handled in the project? How are parameters extracted? How is the resulting message generated? How is this different from accessing the page petForm the first time (to see the form)?
 
 > When you submit a form on the petForm page it posts (loads data from the server) and displays the text of the name entered, followed by "String Length:" and the string length.
-> The form parameters in petForm are ?????
+> The form parameters in petForm are newPet and submit.
 > The method for the form is "post".
 > When the user submits their information, the page is handled by petForm.html, which assigns the string of what the user entered to the value "newPet". From there the process is handled by app.js which takes "newPet" and displays the text of the name entered, followed by "String Length:" and the string length.
 > The parameters are extracted by app.js.

@@ -32,10 +32,6 @@ describe('testing basic functions', function(){
 //testing for GPA Calculator
 describe('testing for GPA calculator', function(){
 
-    it('A return a 4.0', function(){
-        expect(gradetonumber("A")).toBe(4.0);
-    });
-
     it('should return a 4.0', function(){
        expect(calculateGPA("A", "A", "A", 4, 5, 4)).toEqual(4.0);
     });
@@ -58,7 +54,7 @@ describe('testing for GPA calculator', function(){
 });
 
 //testing for gradeToNumber
-describe('testing for GPA calculator', function(){
+describe('testing for gradeToNumber', function(){
 
     it('A return a 4.0', function(){
         expect(gradeToNumber("A")).toBe(4.0);
